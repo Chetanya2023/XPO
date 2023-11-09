@@ -14,6 +14,7 @@ public class Listeners implements ITestListener {
 	
 	public void onTestStart(ITestResult result) {
 		repo.createTest("ppp");
+		repo.createTest(result.getMethod().getMethodName());
 		
 		
 	}

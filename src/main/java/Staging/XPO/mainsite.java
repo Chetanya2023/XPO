@@ -56,6 +56,9 @@ public class mainsite extends Abstract{
 	@FindBy(linkText="BUY TICKET")
 	WebElement clickbuyticket;
 	
+	@FindBy(xpath="//*[@class='ant-modal-body']")
+	WebElement Ticketmodal;
+	
 public void dashboards() throws InterruptedException {
 	
 	Thread.sleep(2000);
@@ -93,8 +96,9 @@ public void dashboards() throws InterruptedException {
 }
 
 
-	public void Buyticket() {
+	public void Buyticket() throws InterruptedException {
 		
+		Thread.sleep(2000);
 		for (int i =0 ;i<eventbox.size();i++)
 		{
 			System.out.println(" ");
@@ -110,6 +114,9 @@ public void dashboards() throws InterruptedException {
 		}
 			System.out.println(ticketdetails.getText());
 			clickbuyticket.click();
+			System.out.println (Ticketmodal.getText());
+			
+			
 			
 		
 	}

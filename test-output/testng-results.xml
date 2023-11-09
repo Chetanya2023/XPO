@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-09T13:26:45 IST" name="Default suite" finished-at="2023-11-09T13:27:23 IST" duration-ms="38369">
+  <suite started-at="2023-11-09T18:33:50 IST" name="Default suite" finished-at="2023-11-09T18:34:31 IST" duration-ms="41903">
     <groups>
     </groups>
-    <test started-at="2023-11-09T13:26:45 IST" name="Default test" finished-at="2023-11-09T13:27:23 IST" duration-ms="38369">
+    <test started-at="2023-11-09T18:33:50 IST" name="Default test" finished-at="2023-11-09T18:34:31 IST" duration-ms="41903">
       <class name="xpostaging.Allpagestestcases">
-        <test-method is-config="true" signature="Website()[pri:0, instance:xpostaging.Allpagestestcases@68c9133c]" started-at="2023-11-09T13:26:45 IST" name="Website" finished-at="2023-11-09T13:26:56 IST" duration-ms="10926" status="PASS">
+        <test-method is-config="true" signature="Website()[pri:0, instance:xpostaging.Allpagestestcases@413d1baf]" started-at="2023-11-09T18:33:50 IST" name="Website" finished-at="2023-11-09T18:34:02 IST" duration-ms="12808" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Website -->
-        <test-method signature="login_modal()[pri:0, instance:xpostaging.Allpagestestcases@68c9133c]" started-at="2023-11-09T13:26:56 IST" name="login_modal" finished-at="2023-11-09T13:27:23 IST" duration-ms="27334" status="FAIL">
+        <test-method signature="login_modal()[pri:0, instance:xpostaging.Allpagestestcases@413d1baf]" started-at="2023-11-09T18:34:02 IST" name="login_modal" finished-at="2023-11-09T18:34:31 IST" duration-ms="29006" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='vipBoxTicketBottom']"}
@@ -20,9 +20,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [987da15f1fa25db7420378af5eae89b9, findElement {using=xpath, value=//*[@class='vipBoxTicketBottom']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\baps\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63147}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63147/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 987da15f1fa25db7420378af5eae89b9]]>
+Command: [46297ddab28555def6c11edecc113f45, findElement {using=xpath, value=//*[@class='vipBoxTicketBottom']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\baps\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54305}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54305/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46297ddab28555def6c11edecc113f45]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='vipBoxTicketBottom']"}
@@ -31,9 +31,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [987da15f1fa25db7420378af5eae89b9, findElement {using=xpath, value=//*[@class='vipBoxTicketBottom']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\baps\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63147}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63147/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 987da15f1fa25db7420378af5eae89b9
+Command: [46297ddab28555def6c11edecc113f45, findElement {using=xpath, value=//*[@class='vipBoxTicketBottom']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.106, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\baps\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54305}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54305/devtoo..., se:cdpVersion: 119.0.6045.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46297ddab28555def6c11edecc113f45
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
